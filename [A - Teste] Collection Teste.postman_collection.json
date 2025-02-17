@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "8b0264fd-6ce7-4c11-a356-53a6b9f7179d",
+		"name": "[A - Teste] Collection Teste",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13080143",
+		"_collection_link": "https://lively-shuttle-330015.postman.co/workspace/My-Workspace~731c5ddf-883c-434e-856d-ea924ec7d530/collection/13080143-8b0264fd-6ce7-4c11-a356-53a6b9f7179d?action=share&source=collection_link&creator=13080143"
+	},
+	"item": [
+		{
+			"name": "Webhook",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"foo\": \"bar\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://webhook.site/b73ac297-de73-40c7-bb19-bd6aaa55982b",
+					"protocol": "https",
+					"host": [
+						"webhook",
+						"site"
+					],
+					"path": [
+						"b73ac297-de73-40c7-bb19-bd6aaa55982b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
